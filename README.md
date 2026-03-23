@@ -5,7 +5,7 @@
 
 ## 👨‍🏫 Objetivo
 
-Desenvolver um sistema simples que simule uma **fila de atendimento**, utilizando obrigatoriamente o conceito de **lista encadeada**.
+Desenvolver um sistema simples que simule uma **fila de atendimento**, utilizando obrigatoriamente o conceito de **lista encadeada** *.
 
 O objetivo do trabalho é avaliar a compreensão de estruturas de dados dinâmicas e sua adaptação a diferentes linguagens de programação.
 
@@ -38,7 +38,7 @@ O sistema deve permitir:
 
 A estrutura de dados **DEVE ser implementada manualmente como lista encadeada**.
 
-❌ Não é permitido:
+❌ Não é permitido (mas haverão exceções a depender da linguagem):
 - Arrays
 - Listas prontas da linguagem (List, Vec, ArrayList, etc.)
 
@@ -53,8 +53,8 @@ A estrutura de dados **DEVE ser implementada manualmente como lista encadeada**.
 
 Você pode escolher:
 
-- Interface via terminal (CLI)  
-- Interface web simples  
+- Interface via terminal (CLI)  - mais fácil
+- Interface web simples  - mais complexa tem pontuação extra
 
 ---
 
@@ -96,7 +96,7 @@ Você deve implementar a lista encadeada **respeitando o paradigma da linguagem*
 
 Será utilizado um modelo com múltiplos repositórios:
 
-- 1 repositório principal (este)
+- 1 repositório principal
 - 1 repositório por aluno
 
 ### 🔹 Repositório principal
@@ -111,10 +111,10 @@ Exemplo:
 ```md
 ## Repositórios dos alunos
 
-- Mahgid (Elixir): https://github.com/usuario/projeto-elixir  
-- Samuel (Rust): https://github.com/usuario/projeto-rust  
-- Robert (Crystal): https://github.com/usuario/projeto-crystal  
-- João (Java): https://github.com/usuario/projeto-java  
-- Rafael (Nim): https://github.com/usuario/projeto-nim  
-- Alberto (Julia): https://github.com/usuario/projeto-julia  
-- Caio (Lean): https://github.com/usuario/projeto-lean  
+- Mahgid (Elixir): https://github.com/usuario/edc-p1-2026-projeto-elixir  
+- Samuel (Rust): https://github.com/usuario/edc-p1-2026-projeto-rust  
+- Robert (Crystal): https://github.com/usuario/edc-p1-2026-projeto-crystal  
+- João (Java): https://github.com/usuario/edc-p1-2026-projeto-java  
+- Rafael (Nim): https://github.com/usuario/edc-p1-2026-projeto-nim  
+- Alberto (Julia): https://github.com/usuario/edc-p1-2026-projeto-julia  
+- Caio (Lean): https://github.com/usuario/edc-p1-2026-projeto-lean  
