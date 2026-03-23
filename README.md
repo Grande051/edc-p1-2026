@@ -118,7 +118,7 @@ Exemplo:
 - Rafael (Nim): https://github.com/usuario/edc-p1-2026-projeto-nim  
 - Alberto (Julia): https://github.com/usuario/edc-p1-2026-projeto-julia  
 - Caio (Lean): https://github.com/usuario/edc-p1-2026-projeto-lean  
-
+```
 ### 🔹 Gravação da execução e lista de ferramentas
 - Será necessário também que o aluno grave a sua própria tela durante o processo de codificação do projeto.
 - Embora o uso de IA // LLMs seja permitido para auxiliar a implementação do projeto, é expressamente proibido copiar-e-colar código pronto gerado por qualquer outra ferramenta.
