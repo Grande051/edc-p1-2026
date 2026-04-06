@@ -129,81 +129,94 @@ Exemplo:
 Nesse mesmo repositório, há um arquivo [langs.md](./langs.md) com dicas de como criar listas encadeadas em cada uma das linguagens a serem utilizadas.
 deverá ser utilizado os exemplos como base para implementação do enunciado.
 
+Link para acessar o video da gravação da tela do computador: https://youtu.be/IMgOkTpT0mo?si=WW3UFFMRs-eErx1Z
 
-Sistema de Fila Web - Trabalho P1 (Crystal) 🌐🚀
-Um sistema de gerenciamento de fila desenvolvido em Crystal, com interface web simples utilizando servidor HTTP local.
+
+​🌐 Sistema de Fila Web - Trabalho P1 (Crystal)
+
+Sistema de gerenciamento de fila desenvolvido em Crystal, com interface web simples utilizando servidor HTTP local.
 Permite inserir, atender, buscar e visualizar pessoas na fila diretamente pelo navegador.
-🛠️ Guia de Instalação do Crystal (Windows)
-Para rodar este projeto, é necessário instalar o Crystal:
-1. Instalar o Crystal
-Acesse: https://crystal-lang.org/install/⁠�
-Baixe a versão para Windows
-Execute o instalador
-⚠️ Caso solicitado, instale também o Visual Studio Build Tools
-2. Verificar a Instalação
-No terminal (Prompt ou PowerShell), digite:
-Bash
-crystal --version
-Se aparecer a versão, está pronto ✅
-📂 Como Rodar o Projeto Web
-1. Acessar a Pasta do Projeto
-Abra o terminal e navegue até onde está o arquivo:
-Bash
-cd caminho/da/sua/pasta
-2. Executar o Servidor
-Bash
-crystal run P1_2026.cr
-3. Acessar no Navegador 🌐
-Após rodar, aparecerá no terminal:
 
-Rodando em http://localhost:8080
-Abra o navegador e acesse:
-👉 http://localhost:8080⁠�
+🛠️ Guia de Instalação do Crystal (Windows)
+
+1. Instalar o Crystal
+   · Acesse: https://crystal-lang.org/install/
+   · Baixe a versão para Windows
+   · Execute o instalador
+   · ⚠️ Caso solicitado, instale também o Visual Studio Build Tools
+2. Verificar a instalação
+      No terminal (Prompt ou PowerShell), digite:
+   ```bash
+   crystal --version
+   ```
+   Se aparecer a versão, está pronto ✅
+
+📂 Como Rodar o Projeto Web
+
+1. Acessar a pasta do projeto
+   ```bash
+   cd caminho/da/sua/pasta
+   ```
+2. Executar o servidor
+   ```bash
+   crystal run P1_2026.cr
+   ```
+3. Acessar no navegador 🌐
+      Após rodar, aparecerá no terminal:
+   ```
+   Rodando em http://localhost:8080
+   ```
+   Abra o navegador e acesse: 👉 http://localhost:8080
+
 📋 Funcionalidades do Sistema
-O sistema funciona através de uma interface web com botões e formulários:
-Função
-Descrição
-Inserir
-Adiciona uma pessoa na fila
-Atender Próximo
-Remove a primeira pessoa (FIFO)
-Ver Fila
-Exibe toda a fila
-Buscar
-Mostra a posição de uma pessoa
+
+Função Descrição
+Inserir Adiciona uma pessoa na fila
+Atender Próximo Remove a primeira pessoa (FIFO)
+Ver Fila Exibe toda a fila
+Buscar Mostra a posição de uma pessoa
+
 🌐 Rotas da Aplicação
-Rota
-Função
-/
-Página principal
-/add
-Adiciona pessoa na fila
-/dequeue
-Atende o próximo
-/show
-Exibe a fila
-/search
-Busca pessoa
+
+Rota Função
+/ Página principal
+/add Adiciona pessoa
+/dequeue Atende o próximo
+/show Exibe a fila
+/search Busca pessoa
+
 🏗️ Estrutura do Projeto
-P1_2026.cr → Código principal (servidor + lógica da fila)
+
+· P1_2026.cr → Código principal (servidor + lógica da fila)
+
 Estruturas utilizadas:
-Node → Representa cada elemento da fila
-Queue → Gerencia a lista encadeada
+
+· Node → Representa cada elemento da fila
+· Queue → Gerencia a lista encadeada
+
 ⚙️ Como o Sistema Funciona
-A fila é implementada com lista encadeada
-Cada elemento aponta para o próximo (next)
-O sistema segue o modelo FIFO (First In, First Out)
-O servidor HTTP processa requisições e retorna páginas HTML
+
+· A fila é implementada com lista encadeada
+· Cada elemento aponta para o próximo (next)
+· O sistema segue o modelo FIFO (First In, First Out)
+· O servidor HTTP processa requisições e retorna páginas HTML
+
 🧪 Testes Realizados
-Inserção de múltiplos elementos
-Remoção da fila (dequeue)
-Busca por nome
-Exibição da fila no navegador
-Validação de fila vazia
+
+· Inserção de múltiplos elementos
+· Remoção da fila (dequeue)
+· Busca por nome
+· Exibição da fila no navegador
+· Validação de fila vazia
+
 ☁️ Tecnologias Utilizadas
-💎 Crystal (linguagem principal)
-🌐 HTTP::Server (servidor web nativo)
-💻 Visual Studio / VS Code
-🤖 ChatGPT,Gemini e DeepSeek (apoio na lógica e explicações)
- Observação
-Todo o código foi desenvolvido manualmente, garantindo o entendimento completo da estrutura de dados e do funcionamento do servidor web.
+
+· 💎 Crystal (linguagem principal)
+· 🌐 HTTP::Server (servidor web nativo)
+· 💻 Visual Studio / VS Code
+· 🤖 ChatGPT, Gemini e DeepSeek (apoio na lógica e explicações)
+· 🎥 YouTube (upload do vídeo gravando a tela enquanto codava)
+
+⚠️ Observação
+
+O código foi desenvolvido com foco acadêmico, visando o domínio de estruturas de dados e comunicação cliente-servidor.
